@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic CRUD</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="/docs/5.0/assets/brand/car-solid.svg" alt="" width="80" height="50">
+            LUPECAR
+          </a>
+        </div>
+      </nav>
+
+
+      <section>
+
+        <div class="container d-flex justify-content-center mt-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2> 
+                        CADASTRO
+
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <form class="container">
+            <div class="col-md-8">
+              <label for="inputName" class="form-label">Nome Completo</label>
+              <input type="name" class="form-control" id="inputName" placeholder="Digite seu nome...">
+            </div>
+            <div class="col-8">
+              <label for="inputEmail" class="form-label">E-mail</label>
+              <input type="email" class="form-control" id="inputEmail" placeholder="Digite seu e-mail...">
+            </div>
+            <div class="col-8">
+              <label for="inputAddress" class="form-label">Endereço</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Digite seu endereço...">
+            </div>
+            <div class="col-md-8">
+              <label for="inputCity" class="form-label">Cidade</label>
+              <input type="text" class="form-control" id="inputCity" placeholder="Cidade...">
+            </div>
+            <div class="col-md-8">
+              <label for="inputState" class="form-label">Estado</label>
+              <select id="inputState" class="form-select">
+                <option selected>...</option>
+                <option>GO</option>
+                <option>SP</option>
+                <option>MG</option>
+                <option>RJ</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputCEP" class="form-label">CEP</label>
+              <input type="text" class="form-control" id="inputCEP" placeholder="CEP">
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Checar
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Registrar-se</button>
+            </div>
+          </form>
+        </form>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
